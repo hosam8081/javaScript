@@ -1,0 +1,48 @@
+:root{
+    --main-color:#4caf60;
+    --bg-color: #fff;
+    --text-color:#000
+}
+
+body{
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height:100vh;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s;
+}
+h1{
+    color:var(--text-color);
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.5s;
+}
+p{
+    color:var(--text-color);
+    line-height: 1.5;
+    font-size:18px;
+    transition: all 0.5s;
+}
+@media(min-width: 567px) {
+    p{
+        max-width:900px
+    }
+}
+button{
+    display: block;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    position: absolute;
+    top:20px;
+    right:0px;
+    border:none;
+    outline:none;
+    cursor:pointer
+}

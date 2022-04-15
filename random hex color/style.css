@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #7d4d56, #1f6409);
+}
+h1, h2{
+    margin-bottom:25px;
+    font-size:32px;
+
+}
+.container{
+    width:90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn{
+    padding:10px 25px;
+    font-size: 18px;
+    outline: none;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    cursor:pointer;
+}
+
+h2{
+    margin-top:15%
+}

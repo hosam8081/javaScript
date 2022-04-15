@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+.container .card{
+    width:400px;
+    padding:20px 40px;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
+}
+.container .card h2{
+    text-align:center;
+    padding-bottom:15px;
+}
+.container .card p{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+input[type="text"]{
+    display: block;
+    width:100%;
+    margin-bottom:15px;
+    padding:8px 0;
+    outline:none;
+    border: 1px solid lightgray;
+}
+input[type="submit"]{
+    margin-bottom:15px;
+    padding-bottom:8px;
+    outline:none;
+    padding:10px;
+    display: block;
+    cursor: pointer;
+}
+.text{
+    text-align:center
+}

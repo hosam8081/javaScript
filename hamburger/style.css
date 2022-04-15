@@ -1,0 +1,43 @@
+button {
+    position: fixed;
+    top:20px;
+    right:20px;
+    background-color: #4caf60;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding:10px;
+    color:#fff;
+    transition: transform ease-in-out 0.5s;
+}
+button.show{
+    transform:translateX(-180px)
+}
+ul {
+    list-style-type: none;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width:200px;
+    background:#4caf60;
+    color:#fff;
+    transform:translateX(200px);
+    transition: transform ease-in-out 0.5s;
+}
+.navbar.show{
+    transform:translateX(0)
+}
+
+.navbar .list-link{
+    color:#fff;
+    text-decoration:none;
+    padding:16px 10px 16px 0;
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
